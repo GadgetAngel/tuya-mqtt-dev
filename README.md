@@ -77,7 +77,8 @@ Change device state (by topic):
     - tuya/<tuyAPI-id>/<tuyAPI-key>/<tuyAPI-ip>/command/{ "multiple": true, "data": { "1": true, "7": true } }
     - tuya/<tuyAPI-id>/<tuyAPI-key>/<tuyAPI-ip>/command/{ "schema": true }
     - tuya/<tuyAPI-id>/<tuyAPI-key>/<tuyAPI-ip>/command/{ "multiple": true, "data": { "1": true, "2": "scene_4" } }
-    - tuya/<tuyAPI-id>/<tuyAPI-key>/<tuyAPI-ip>/command/{ "multiple": true, "data": { "1": true, "2": "scene", "6": "c479000025ffc3" } } 
+    - tuya/<tuyAPI-id>/<tuyAPI-key>/<tuyAPI-ip>/command/{ "multiple": true, "data": 
+                                                              { "1": true, "2": "scene", "6": "c479000025ffc3" } } 
 
 Change device state (by payload)
 Use with OpenHAB 2.X MQTT bindings or others where only a single command topic is preferred:
